@@ -1,0 +1,1557 @@
+{
+  "timestamp": "2017-07-31 16:51:08", 
+  "lru_data": {
+    "Mem": [
+      {
+        "pgout": "456", 
+        "swapin": "0", 
+        "cache": "1582232", 
+        "pgin": "35320", 
+        "free": "0", 
+        "swapout": "0", 
+        "swap": "421620", 
+        "buff": "207460"
+      }
+    ], 
+    "CpuArray": [
+      {
+        "name": "cpu0", 
+        "iowait": "0.20", 
+        "sys": "1.79", 
+        "idle": "94.02", 
+        "sirq": "0.40", 
+        "user": "3.59", 
+        "hirq": "0.00"
+      }, 
+      {
+        "name": "cpu1", 
+        "iowait": "0.10", 
+        "sys": "3.49", 
+        "idle": "76.85", 
+        "sirq": "0.20", 
+        "user": "19.36", 
+        "hirq": "0.00"
+      }, 
+      {
+        "name": "cpu2", 
+        "iowait": "0.00", 
+        "sys": "2.99", 
+        "idle": "87.52", 
+        "sirq": "0.10", 
+        "user": "9.38", 
+        "hirq": "0.00"
+      }, 
+      {
+        "name": "cpu3", 
+        "iowait": "0.10", 
+        "sys": "2.59", 
+        "idle": "86.84", 
+        "sirq": "0.20", 
+        "user": "10.27", 
+        "hirq": "0.00"
+      }
+    ], 
+    "NetArray": [
+      {
+        "RxPackets": "0", 
+        "TxBytes": "0", 
+        "RxBytes": "0", 
+        "name": "egiga0", 
+        "TxPackets": "0"
+      }, 
+      {
+        "RxPackets": "943", 
+        "TxBytes": "182532704", 
+        "RxBytes": "169418", 
+        "name": "egiga1", 
+        "TxPackets": "138527"
+      }, 
+      {
+        "RxPackets": "0", 
+        "TxBytes": "0", 
+        "RxBytes": "0", 
+        "name": "egiga2", 
+        "TxPackets": "0"
+      }, 
+      {
+        "RxPackets": "0", 
+        "TxBytes": "0", 
+        "RxBytes": "0", 
+        "name": "egiga3", 
+        "TxPackets": "0"
+      }, 
+      {
+        "RxPackets": "45", 
+        "TxBytes": "148036", 
+        "RxBytes": "34800", 
+        "name": "egiga4", 
+        "TxPackets": "212"
+      }
+    ], 
+    "IoArray": [
+      {
+        "wr_ticks": "0", 
+        "name": "md0", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "70640", 
+        "rd_ios": "162", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "28", 
+        "name": "sda", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "28", 
+        "wr_sectors": "912", 
+        "wr_ios": "33", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "28"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda1", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "24", 
+        "name": "sda2", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "24", 
+        "wr_sectors": "864", 
+        "wr_ios": "28", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "24"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda3", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda4", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda5", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "4", 
+        "name": "sda6", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "48", 
+        "wr_ios": "4", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda7", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda8", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda9", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sdb", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "18056", 
+        "rd_ios": "24", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sdb1", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "18056", 
+        "rd_ios": "24", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sdc", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "17920", 
+        "rd_ios": "23", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sdc1", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "17920", 
+        "rd_ios": "23", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sdd", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "17256", 
+        "rd_ios": "23", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sdd1", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "17256", 
+        "rd_ios": "23", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sde", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "17408", 
+        "rd_ios": "23", 
+        "tot_ticks": "4"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sde1", 
+        "rd_ticks": "4", 
+        "in_flight": "0", 
+        "rq_ticks": "4", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "17408", 
+        "rd_ios": "23", 
+        "tot_ticks": "4"
+      }
+    ], 
+    "ProcArray": [
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SBB_MfTrueSplitter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3068"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SBB_NetMonMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1920"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SBB_PingMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1536"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_LogCentralizer", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3548"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_BasicRpoCommandMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2720"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_BasicRpoStatusMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2636"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2268"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_ComplexPowerMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3636"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_ComplexRpoCommandMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3148"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_ComplexRpoStatusMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3412"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_GenericPowerRouter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2564"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_HbManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "43560", 
+        "tx_packets": "40", 
+        "cpu": "1.00", 
+        "rss": "4372"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_IfeRunLevel", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2596"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_LruResetMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4424"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_RebootAgent", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3764"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_ThirdPartyLruMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3176"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "hbparse", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3124"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "logmgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3924"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "statsvr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2584"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "timemgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4816"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_FtsMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4792"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_ObedsMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "104880"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1560"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_IgmpSnoopingMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4364"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_LocalInfoEmitter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "2.00", 
+        "rss": "4116"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_LocalMidManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5408"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_LocalTopoMfp", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3144"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_SwitchPortStateMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4504"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_TopologyDisplayManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "14240"
+      }, 
+      {
+        "rx_packets": "7", 
+        "proc_swap": "0", 
+        "name": "NCF_TopologyMgr", 
+        "rx_bytes": "2370", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "19164"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1532"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_DnldLdr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4188"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_DnldMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "8724"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_DnldSvr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3984"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_CcManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7376"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_CcParser", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5832"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_CfgTransmitter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2576"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_CrateManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3060"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_DbCfgRptDumpInXml", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3100"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_FtpClient", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "6200"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_MediaManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5716"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_ProgressReporter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3652"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_TcpListen", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2512"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_UdpListen", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1964"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_UploadManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "6452"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_PrintingManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3612"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ip_sender", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3840"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_DataRepositoryMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3688"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_InputOutputMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4904"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_AcarsCmfMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "290", 
+        "tx_packets": "5", 
+        "cpu": "0.00", 
+        "rss": "5796"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_AfdxMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "8408"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_AnnouncementMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4636"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_CdauMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4516"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_CidsV3Mgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4740"
+      }, 
+      {
+        "rx_packets": "34", 
+        "proc_swap": "0", 
+        "name": "ASC_ComMgr", 
+        "rx_bytes": "2788", 
+        "tx_bytes": "1350", 
+        "tx_packets": "11", 
+        "cpu": "0.00", 
+        "rss": "2040"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_CssV2Mgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "2.00", 
+        "rss": "6908"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_GlobalDataMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5572"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_OhmfMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "530", 
+        "tx_packets": "2", 
+        "cpu": "0.00", 
+        "rss": "4456"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ASC_SitaMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4556"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_MulticastRouterAdvertiser", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4344"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_OffloadData", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2624"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2028"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_ConfigurationMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "6084"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_DbWriter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7560"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_FaultTreeAnalyser", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "14188"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_ManagerMain", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "13664"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_MonitorAgent", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "21228"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_PollingMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "13336"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_RebootMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5432"
+      }, 
+      {
+        "rx_packets": "1", 
+        "proc_swap": "0", 
+        "name": "BIT_RedundancyMgr", 
+        "rx_bytes": "134", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5904"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_ReportMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "6228"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_TrapAgent", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5792"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_TrapMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7604"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "snmpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7320"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_AuDiC", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "1.00", 
+        "rss": "6360"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_AvServerV4", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "8808"
+      }, 
+      {
+        "rx_packets": "40", 
+        "proc_swap": "0", 
+        "name": "AVI_ComMgr", 
+        "rx_bytes": "3280", 
+        "tx_bytes": "3440", 
+        "tx_packets": "40", 
+        "cpu": "0.00", 
+        "rss": "2024"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_CommandManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "2556", 
+        "tx_packets": "5", 
+        "cpu": "0.00", 
+        "rss": "12428"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_LiveStreamAnalyser", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4040"
+      }, 
+      {
+        "rx_packets": "10", 
+        "proc_swap": "0", 
+        "name": "AVI_Master", 
+        "rx_bytes": "820", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "9124"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_SifCompressor", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3572"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_SifDecompressor", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3052"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_SifParser", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "10232"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_AnnouncementMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7120"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3028"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_HeadEndPublisher", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "14796"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_HeadEndRequestMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "20124"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_HeadEndSignalServer", 
+        "rx_bytes": "0", 
+        "tx_bytes": "4140", 
+        "tx_packets": "60", 
+        "cpu": "0.00", 
+        "rss": "9240"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_HmiMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2972"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_OverheadAVServer", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3724"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "PAX_Epcu2Mgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2740"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "CSW_TestTool_Server", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "10676"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "jetty-java", 
+        "rx_bytes": "0", 
+        "tx_bytes": "2212", 
+        "tx_packets": "3", 
+        "cpu": "0.00", 
+        "rss": "120988"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "820sconfig-copyCMLscript.sh", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1424"
+      }, 
+      {
+        "rx_packets": "113", 
+        "proc_swap": "0", 
+        "name": "160framework-lib", 
+        "rx_bytes": "69115", 
+        "tx_bytes": "95206", 
+        "tx_packets": "111", 
+        "cpu": "3.00", 
+        "rss": "604768"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "820sconfig-bundle", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "60532"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "820sconfig-SEC_Vpn.sh", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1548"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "clsxfer", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5240"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "200commonapps-alpn-boot-8.1.0.v20141016.jar", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "3.00", 
+        "rss": "138216"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "cabingui", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "76384"
+      }, 
+      {
+        "rx_packets": "116", 
+        "proc_swap": "0", 
+        "name": "210gui-lib", 
+        "rx_bytes": "8448", 
+        "tx_bytes": "12822", 
+        "tx_packets": "96", 
+        "cpu": "1.00", 
+        "rss": "49516"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "dtisvr2_5_5", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1040"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "440_3DMap-httpd2", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5012"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "440_3DMap-httpd2", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "53116"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "cupsd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3960"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "html", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5072"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "os3dmaps", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "20.00", 
+        "rss": "86508"
+      }, 
+      {
+        "rx_packets": "46", 
+        "proc_swap": "0", 
+        "name": "app_multi_server", 
+        "rx_bytes": "3372", 
+        "tx_bytes": "2742", 
+        "tx_packets": "25", 
+        "cpu": "0.00", 
+        "rss": "16100"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "420dtiapp-dtiblsvr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "572"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "httpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "30624"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "vsftpd.conf", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "264"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "sleep", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "296"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "bash_server", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2672"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "smarts", 
+        "rx_bytes": "0", 
+        "tx_bytes": "2690", 
+        "tx_packets": "5", 
+        "cpu": "4.00", 
+        "rss": "33228"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "010core-coreswctrl", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1500"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "httpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "9688"
+      }, 
+      {
+        "rx_packets": "32", 
+        "proc_swap": "0", 
+        "name": "beam.smp", 
+        "rx_bytes": "2153", 
+        "tx_bytes": "20616", 
+        "tx_packets": "32", 
+        "cpu": "5.00", 
+        "rss": "60116"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "mysqld_safe", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1548"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "mysqld", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "64100"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "httpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "29696"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "httpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "30724"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "httpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "30272"
+      }
+    ]
+  }, 
+  "artsId": "0", 
+  "scenarioName": "sparc_vod", 
+  "eventData": {
+    "eventName": "", 
+    "timestamp": ""
+  }, 
+  "runDate": "20170731", 
+  "lruType": "44", 
+  "hostname": "DSU1", 
+  "testName": "sprint9.2sparcvod.2", 
+  "guid_id": "236", 
+  "lab_name": "avantsdl7", 
+  "lruSubType": "1"
+}

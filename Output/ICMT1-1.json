@@ -1,0 +1,787 @@
+{
+  "timestamp": "2017-07-31 16:41:33", 
+  "lru_data": {
+    "Mem": [
+      {
+        "pgout": "18", 
+        "swapin": "0", 
+        "cache": "293796", 
+        "pgin": "0", 
+        "free": "0", 
+        "swapout": "0", 
+        "swap": "47188", 
+        "buff": "17264"
+      }
+    ], 
+    "CpuArray": [
+      {
+        "name": "cpu0", 
+        "iowait": "5.03", 
+        "sys": "0.63", 
+        "idle": "93.30", 
+        "sirq": "0.10", 
+        "user": "0.94", 
+        "hirq": "0.00"
+      }, 
+      {
+        "name": "cpu1", 
+        "iowait": "7.16", 
+        "sys": "0.20", 
+        "idle": "91.93", 
+        "sirq": "0.00", 
+        "user": "0.71", 
+        "hirq": "0.00"
+      }
+    ], 
+    "NetArray": [
+      {
+        "RxPackets": "493", 
+        "TxBytes": "78975", 
+        "RxBytes": "156716", 
+        "name": "eth0", 
+        "TxPackets": "353"
+      }
+    ], 
+    "IoArray": [
+      {
+        "wr_ticks": "0", 
+        "name": "dm-0", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "3351", 
+        "name": "mmcblk0", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "1907", 
+        "wr_sectors": "36", 
+        "wr_ios": "8", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "3351"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk0p1", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk0p2", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk0p3", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "2750", 
+        "name": "mmcblk0p5", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "1532", 
+        "wr_sectors": "20", 
+        "wr_ios": "6", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "2750"
+      }, 
+      {
+        "wr_ticks": "601", 
+        "name": "mmcblk0p6", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "602", 
+        "wr_sectors": "16", 
+        "wr_ios": "2", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "601"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1boot0", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1boot1", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1p3", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1p6", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1p7", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1p8", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "mmcblk1p9", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }, 
+      {
+        "wr_ticks": "0", 
+        "name": "sda1", 
+        "rd_ticks": "0", 
+        "in_flight": "0", 
+        "rq_ticks": "0", 
+        "wr_sectors": "0", 
+        "wr_ios": "0", 
+        "rd_sectors": "0", 
+        "rd_ios": "0", 
+        "tot_ticks": "0"
+      }
+    ], 
+    "ProcArray": [
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "010core-coreswctrl", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1268"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "mediaserver", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "6756"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "bash_server", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2088"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "smarts", 
+        "rx_bytes": "0", 
+        "tx_bytes": "2477", 
+        "tx_packets": "5", 
+        "cpu": "0.00", 
+        "rss": "8004"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SBB_Ar485Mgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1852"
+      }, 
+      {
+        "rx_packets": "19", 
+        "proc_swap": "0", 
+        "name": "SBB_MfTrueSplitter", 
+        "rx_bytes": "20748", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1560"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SBB_PingMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "2.00", 
+        "rss": "1080"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1908"
+      }, 
+      {
+        "rx_packets": "20", 
+        "proc_swap": "0", 
+        "name": "GSM_HbManager", 
+        "rx_bytes": "21772", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3348"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GSM_RebootAgent", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2328"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "hbparse", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2468"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "logmgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3048"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_IslandModeMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2096"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_LocalInfoEmitter", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "1.00", 
+        "rss": "2384"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_LocalMidManager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3556"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_LocalTopoMfp", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1592"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_ThalesRestartTool", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1532"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_SeatEndRedundancyMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2444"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "NCF_SwitchPortStateMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2624"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1360"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_DnldLdr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2712"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_DnldSvr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2404"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_FtpClient", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4468"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_TcpListen", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1988"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_UdpListen", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1616"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "ip_sender", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2212"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "SCC_UsbStorageServer", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2388"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1392"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_MonitorAgent", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "11072"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "BIT_TrapAgent", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3856"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "snmpd", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "4340"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_SifDecompressor", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "5644"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "AVI_SifParser", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "9460"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2480"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_DisplayEndMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2840"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_OverheadAVClient", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2640"
+      }, 
+      {
+        "rx_packets": "30", 
+        "proc_swap": "0", 
+        "name": "GAP_SeatEndPublisher", 
+        "rx_bytes": "2070", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "10588"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "GAP_SeatEndRequestMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7176"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "PAX_AudioConfigurator", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2940"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "PAX_AudioDealer", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "3332"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "PAX_ComMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "1444"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "PAX_ModeMgr", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "2740"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "CSW_TestTool_Server", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "7468"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.statemanager", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "37584"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.flightdataservice", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "37000"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.cabinaudioservice", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "37008"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.navigationservice", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "37624"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.container", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "1.00", 
+        "rss": "43188"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.applicationservice", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "41168"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.framework.backlightservice", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "37556"
+      }, 
+      {
+        "rx_packets": "21", 
+        "proc_swap": "0", 
+        "name": "com.thalesifec.ux.cabingui", 
+        "rx_bytes": "4414", 
+        "tx_bytes": "1386", 
+        "tx_packets": "21", 
+        "cpu": "0.00", 
+        "rss": "179544"
+      }, 
+      {
+        "rx_packets": "0", 
+        "proc_swap": "0", 
+        "name": "com.android.providers.calendar", 
+        "rx_bytes": "0", 
+        "tx_bytes": "0", 
+        "tx_packets": "0", 
+        "cpu": "0.00", 
+        "rss": "35680"
+      }
+    ]
+  }, 
+  "artsId": "0", 
+  "scenarioName": "sparc_vod", 
+  "eventData": {
+    "eventName": "", 
+    "timestamp": ""
+  }, 
+  "runDate": "20170731", 
+  "lruType": "43", 
+  "hostname": "ICMT1", 
+  "testName": "sprint9.2sparcvod.2", 
+  "guid_id": "236", 
+  "lab_name": "avantsdl7", 
+  "lruSubType": "1"
+}
